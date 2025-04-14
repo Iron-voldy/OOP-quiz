@@ -382,8 +382,7 @@ const quizData = {
         "title": "q2",
         "questions": [
           {
-            "question": "What relationship is demonstrated between the University and Student classes in the following code?",
-            "code": "public class University {\n  private ArrayList<Student> students;\n\n  public University() {\n    students = new ArrayList<Student>();\n  }\n\n  public void addStudent(Student student) {\n    students.add(student);\n  }\n}",
+            "question": "What relationship is demonstrated between the University and Student classes in the following code?\n\n public class University {\n  private ArrayList<Student> students;\n\n  public University() {\n    students = new ArrayList<Student>();\n  }\n\n  public void addStudent(Student student) {\n    students.add(student);\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -394,8 +393,7 @@ const quizData = {
             "answer": "Aggregation"
           },
           {
-            "question": "What relationship is demonstrated between the House and Room classes in the following code?",
-            "code": "public class House {\n  private Room[] rooms;\n\n  public House() {\n    rooms = new Room[5];\n    for (int i = 0; i < 5; i++) {\n      rooms[i] = new Room();\n    }\n  }\n}",
+            "question": "What relationship is demonstrated between the House and Room classes in the following code?\n\n public class House {\n  private Room[] rooms;\n\n  public House() {\n    rooms = new Room[5];\n    for (int i = 0; i < 5; i++) {\n      rooms[i] = new Room();\n    }\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -428,8 +426,7 @@ const quizData = {
             "answer": "public String getName() { return name; }"
           },
           {
-            "question": "Which OOP concept is demonstrated in the following code?",
-            "code": "public abstract class Shape {\n  public abstract double calculateArea();\n}",
+            "question": "Which OOP concept is demonstrated in the following code?\n\n public abstract class Shape {\n  public abstract double calculateArea();\n}",
             "options": [
               "Encapsulation",
               "Inheritance",
@@ -440,8 +437,7 @@ const quizData = {
             "answer": "Abstraction"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Car();\n    v.drive();\n  }\n}\n\nclass Vehicle {\n  public void drive() {\n    System.out.println(\"Vehicle is driving\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void drive() {\n    System.out.println(\"Car is driving\");\n  }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Car();\n    v.drive();\n  }\n}\n\nclass Vehicle {\n  public void drive() {\n    System.out.println(\"Vehicle is driving\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void drive() {\n    System.out.println(\"Car is driving\");\n  }\n}",
             "options": [
               "Vehicle is driving",
               "Car is driving",
@@ -452,8 +448,7 @@ const quizData = {
             "answer": "Car is driving"
           },
           {
-            "question": "What will be the result of trying to compile and run the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Shape shape = new Shape();\n    shape.draw();\n  }\n}\n\nabstract class Shape {\n  public abstract void draw();\n}",
+            "question": "What will be the result of trying to compile and run the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Shape shape = new Shape();\n    shape.draw();\n  }\n}\n\nabstract class Shape {\n  public abstract void draw();\n}",
             "options": [
               "The code will compile and run without errors",
               "The code will compile but throw a runtime exception",
@@ -475,8 +470,7 @@ const quizData = {
             "answer": "A method in a subclass with the same name and parameters as a method in its superclass"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"John Doe\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"John Doe\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
             "options": [
               "null",
               "John Doe",
@@ -520,8 +514,7 @@ const quizData = {
             "answer": "A class can implement multiple interfaces"
           },
           {
-            "question": "What relationship is demonstrated between the Employee and Department classes in the following code?",
-            "code": "public class Employee {\n  private Department department;\n  \n  public Employee(Department department) {\n    this.department = department;\n  }\n}",
+            "question": "What relationship is demonstrated between the Employee and Department classes in the following code?\n\n public class Employee {\n  private Department department;\n  \n  public Employee(Department department) {\n    this.department = department;\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -554,8 +547,7 @@ const quizData = {
             "answer": "Overloading is a compile-time concept, overriding is a runtime concept"
           },
           {
-            "question": "Which of the following code demonstrates the concept of polymorphism?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Shape shape1 = new Circle();\n    Shape shape2 = new Rectangle();\n    shape1.draw();\n    shape2.draw();\n  }\n}",
+            "question": "Which of the following code demonstrates the concept of polymorphism?\n\n public class Main {\n  public static void main(String[] args) {\n    Shape shape1 = new Circle();\n    Shape shape2 = new Rectangle();\n    shape1.draw();\n    shape2.draw();\n  }\n}",
             "options": [
               "Method overloading",
               "Method overriding",
@@ -566,8 +558,7 @@ const quizData = {
             "answer": "Dynamic method dispatch"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes a sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    super.makeSound();\n    System.out.println(\"Dog barks\");\n  }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes a sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    super.makeSound();\n    System.out.println(\"Dog barks\");\n  }\n}",
             "options": [
               "Animal makes a sound",
               "Dog barks",
@@ -589,8 +580,7 @@ const quizData = {
             "answer": "In composition, the whole controls the lifecycle of its parts; in aggregation, it does not"
           },
           {
-            "question": "What does the following code demonstrate?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Calculator calc = new Calculator();\n    System.out.println(calc.add(5, 3));\n    System.out.println(calc.add(5.2, 3.8));\n  }\n}\n\nclass Calculator {\n  public int add(int a, int b) {\n    return a + b;\n  }\n  \n  public double add(double a, double b) {\n    return a + b;\n  }\n}",
+            "question": "What does the following code demonstrate?\n\n public class Main {\n  public static void main(String[] args) {\n    Calculator calc = new Calculator();\n    System.out.println(calc.add(5, 3));\n    System.out.println(calc.add(5.2, 3.8));\n  }\n}\n\nclass Calculator {\n  public int add(int a, int b) {\n    return a + b;\n  }\n  \n  public double add(double a, double b) {\n    return a + b;\n  }\n}",
             "options": [
               "Method overriding",
               "Method overloading",
@@ -612,8 +602,7 @@ const quizData = {
             "answer": "Inheritance"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Parent p = new Child();\n    p.display();\n  }\n}\n\nclass Parent {\n  public static void display() {\n    System.out.println(\"Display from Parent\");\n  }\n}\n\nclass Child extends Parent {\n  public static void display() {\n    System.out.println(\"Display from Child\");\n  }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Parent p = new Child();\n    p.display();\n  }\n}\n\nclass Parent {\n  public static void display() {\n    System.out.println(\"Display from Parent\");\n  }\n}\n\nclass Child extends Parent {\n  public static void display() {\n    System.out.println(\"Display from Child\");\n  }\n}",
             "options": [
               "Display from Parent",
               "Display from Child",
@@ -646,8 +635,7 @@ const quizData = {
             "answer": "Abstract classes can contain both abstract and non-abstract methods"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Counter c = new Counter();\n    Counter.increment();\n    Counter.increment();\n    System.out.println(Counter.count);\n  }\n}\n\nclass Counter {\n  public static int count = 0;\n  \n  public static void increment() {\n    count++;\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Counter c = new Counter();\n    Counter.increment();\n    Counter.increment();\n    System.out.println(Counter.count);\n  }\n}\n\nclass Counter {\n  public static int count = 0;\n  \n  public static void increment() {\n    count++;\n  }\n}",
             "options": [
               "0",
               "1",
@@ -658,8 +646,7 @@ const quizData = {
             "answer": "2"
           },
           {
-            "question": "Which code segment correctly demonstrates dependency relationship in Java?",
-            "code": "public class Car {\n  public void drive(Driver driver) {\n    driver.drive();\n    System.out.println(\"Car is being driven\");\n  }\n}",
+            "question": "Which code segment correctly demonstrates dependency relationship in Java?\n\n public class Car {\n  public void drive(Driver driver) {\n    driver.drive();\n    System.out.println(\"Car is being driven\");\n  }\n}",
             "options": [
               "Inheritance",
               "Association",
@@ -676,8 +663,7 @@ const quizData = {
         "title": "q3",
         "questions": [
           {
-            "question": "What relationship is demonstrated between the Library and Book classes in the following code?",
-            "code": "public class Library {\n  private ArrayList<Book> books;\n\n  public Library() {\n    books = new ArrayList<Book>();\n  }\n\n  public void addBook(Book book) {\n    books.add(book);\n  }\n}",
+            "question": "What relationship is demonstrated between the Library and Book classes in the following code?\n\n public class Library {\n  private ArrayList<Book> books;\n\n  public Library() {\n    books = new ArrayList<Book>();\n  }\n\n  public void addBook(Book book) {\n    books.add(book);\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -688,8 +674,7 @@ const quizData = {
             "answer": "Aggregation"
           },
           {
-            "question": "What relationship is demonstrated between the Car and Engine classes in the following code?",
-            "code": "public class Car {\n  private Engine engine;\n\n  public Car() {\n    engine = new Engine();\n  }\n}",
+            "question": "What relationship is demonstrated between the Car and Engine classes in the following code?\n\n public class Car {\n  private Engine engine;\n\n  public Car() {\n    engine = new Engine();\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -700,8 +685,7 @@ const quizData = {
             "answer": "Composition"
           },
           {
-            "question": "Which OOP concept is demonstrated in the following code?",
-            "code": "public abstract class Animal {\n  public abstract void sound();\n}",
+            "question": "Which OOP concept is demonstrated in the following code?\n\n public abstract class Animal {\n  public abstract void sound();\n}",
             "options": [
               "Encapsulation",
               "Inheritance",
@@ -712,8 +696,7 @@ const quizData = {
             "answer": "Abstraction"
           },
           {
-            "question": "What will be the result of compiling and running the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Vehicle();\n    v.start();\n  }\n}\n\nclass Vehicle {\n  public void start() {\n    System.out.println(\"Vehicle is starting\");\n  }\n}",
+            "question": "What will be the result of compiling and running the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Vehicle();\n    v.start();\n  }\n}\n\nclass Vehicle {\n  public void start() {\n    System.out.println(\"Vehicle is starting\");\n  }\n}",
             "options": [
               "Vehicle is starting",
               "Compilation error",
@@ -724,8 +707,7 @@ const quizData = {
             "answer": "Vehicle is starting"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    System.out.println(\"Dog barks\");\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    System.out.println(\"Dog barks\");\n  }\n}",
             "options": [
               "Animal makes sound",
               "Dog barks",
@@ -747,8 +729,7 @@ const quizData = {
             "answer": "public Car() { }"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"Alice\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"Alice\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
             "options": [
               "null",
               "Alice",
@@ -759,8 +740,7 @@ const quizData = {
             "answer": "Alice"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Shape {\n  public double area() { return 0; }\n}\n\nclass Circle extends Shape {\n  public double area() { return 3.14 * 5 * 5; }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Shape {\n  public double area() { return 0; }\n}\n\nclass Circle extends Shape {\n  public double area() { return 3.14 * 5 * 5; }\n}",
             "options": [
               "0",
               "78.5",
@@ -771,8 +751,7 @@ const quizData = {
             "answer": "78.5"
           },
           {
-            "question": "What does the following code demonstrate?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+            "question": "What does the following code demonstrate?\n\n public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
             "options": [
               "Method overloading",
               "Method overriding",
@@ -783,8 +762,7 @@ const quizData = {
             "answer": "Method overriding"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.sound();\n  }\n}\n\nabstract class Animal {\n  abstract void sound();\n}\n\nclass Dog extends Animal {\n  void sound() {\n    System.out.println(\"Bark\");\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.sound();\n  }\n}\n\nabstract class Animal {\n  abstract void sound();\n}\n\nclass Dog extends Animal {\n  void sound() {\n    System.out.println(\"Bark\");\n  }\n}",
             "options": [
               "Bark",
               "Compilation error",
@@ -795,8 +773,7 @@ const quizData = {
             "answer": "Bark"
           },
           {
-            "question": "What relationship is demonstrated between the Manager and Employee classes in the following code?",
-            "code": "public class Manager {\n  private Employee employee;\n\n  public Manager(Employee employee) {\n    this.employee = employee;\n  }\n}",
+            "question": "What relationship is demonstrated between the Manager and Employee classes in the following code?\n\n public class Manager {\n  private Employee employee;\n\n  public Manager(Employee employee) {\n    this.employee = employee;\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -807,8 +784,7 @@ const quizData = {
             "answer": "Aggregation"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Employee emp = new Employee();\n    emp.showDetails();\n  }\n}\n\nclass Employee {\n  String name = \"John\";\n  int age = 30;\n\n  public void showDetails() {\n    System.out.println(name + \" is \" + age + \" years old.\");\n  }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Employee emp = new Employee();\n    emp.showDetails();\n  }\n}\n\nclass Employee {\n  String name = \"John\";\n  int age = 30;\n\n  public void showDetails() {\n    System.out.println(name + \" is \" + age + \" years old.\");\n  }\n}",
             "options": [
               "John is 30 years old.",
               "Compilation error",
@@ -830,8 +806,7 @@ const quizData = {
             "answer": "A. public void add(int a, int b) { } public void add(double a, double b) { }"
           },
           {
-            "question": "What relationship is demonstrated between the Professor and Course classes in the following code?",
-            "code": "public class Professor {\n  private Course course;\n\n  public Professor(Course course) {\n    this.course = course;\n  }\n}",
+            "question": "What relationship is demonstrated between the Professor and Course classes in the following code?\n\n public class Professor {\n  private Course course;\n\n  public Professor(Course course) {\n    this.course = course;\n  }\n}",
             "options": [
               "Inheritance",
               "Aggregation",
@@ -853,8 +828,7 @@ const quizData = {
             "answer": "C. Abstract methods must be implemented in non-abstract classes."
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Circle {\n  public double area() {\n    return 3.14 * 5 * 5;\n  }\n}",
+            "question": "What will be the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Circle {\n  public double area() {\n    return 3.14 * 5 * 5;\n  }\n}",
             "options": [
               "3.14",
               "78.5",
@@ -865,8 +839,7 @@ const quizData = {
             "answer": "78.5"
           },
           {
-            "question": "Which OOP concept is demonstrated in the following code?",
-            "code": "public interface Animal {\n  void sound();\n}",
+            "question": "Which OOP concept is demonstrated in the following code?\n\n public interface Animal {\n  void sound();\n}",
             "options": [
               "Inheritance",
               "Polymorphism",
@@ -877,8 +850,7 @@ const quizData = {
             "answer": "Abstraction"
           },
           {
-            "question": "What is the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+            "question": "What is the output of the following code?\n\n public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
             "options": [
               "Vehicle is accelerating",
               "Car is accelerating",
@@ -889,8 +861,7 @@ const quizData = {
             "answer": "Car is accelerating"
           },
           {
-            "question": "What will be the output of the following code?",
-            "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle vehicle = new Car();\n    vehicle.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    super.accelerate();\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+            "question": "What will be the output of the following code?\n\n  public static void main(String[] args) {\n    Vehicle vehicle = new Car();\n    vehicle.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    super.accelerate();\n    System.out.println(\"Car is accelerating\");\n  }\n}",
             "options": [
               "Vehicle is accelerating",
               "Car is accelerating",
