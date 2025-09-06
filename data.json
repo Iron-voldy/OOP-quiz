@@ -4,844 +4,1066 @@
       "title": "q1",
       "questions": [
         {
-          "question": "What is the main advantage of using the Object-Oriented Programming (OOP) paradigm?",
+          "id": 1,
+          "question": "What is the primary focus of Software Engineering compared to traditional programming?",
           "options": [
-            "Faster execution time",
-            "Reusability and modularity",
-            "Better memory management",
-            "Simplified code debugging"
+            "Writing code faster",
+            "Using the latest programming languages",
+            "Following structured processes and ensuring quality throughout the software lifecycle",
+            "Creating complex algorithms"
           ],
-          "answer": "Reusability and modularity"
+          "correct_answer": "Following structured processes and ensuring quality throughout the software lifecycle",
+          "topic": "Software Engineering Introduction"
         },
         {
-          "question": "What does the keyword 'extends' signify in Java?",
+          "id": 2,
+          "question": "Which of the following was NOT a common cause of the Software Crisis (1960s-1990s)?",
           "options": [
-            "Creating a new class",
-            "Inheritance between classes",
-            "Overriding methods",
-            "Accessing superclass methods"
+            "Projects going over budget",
+            "Missing deadlines",
+            "System crashes and disasters",
+            "Lack of programming languages"
           ],
-          "answer": "Inheritance between classes"
+          "correct_answer": "Lack of programming languages",
+          "topic": "Software Crisis"
         },
         {
-          "question": "Which OOP principle is implemented using private fields and getter/setter methods?",
+          "id": 3,
+          "question": "What is the main purpose of a feasibility study in software development?",
           "options": [
-            "Abstraction",
-            "Encapsulation",
-            "Polymorphism",
-            "Inheritance"
+            "To write the code for the system",
+            "To test the final product",
+            "To decide whether the project should be built",
+            "To deploy the software to users"
           ],
-          "answer": "Encapsulation"
+          "correct_answer": "To decide whether the project should be built",
+          "topic": "Feasibility Study"
         },
         {
-          "question": "What does 'method overloading' refer to in Java?",
+          "id": 4,
+          "question": "Which type of feasibility study examines whether the system complies with laws and regulations like GDPR?",
           "options": [
-            "Two methods with the same name and parameters",
-            "Two methods with the same name but different parameters",
-            "Changing the method's return type",
-            "Replacing one method's behavior with another"
+            "Technical Feasibility",
+            "Economic Feasibility",
+            "Legal Feasibility",
+            "Operational Feasibility"
           ],
-          "answer": "Two methods with the same name but different parameters"
+          "correct_answer": "Legal Feasibility",
+          "topic": "Types of Feasibility"
         },
         {
-          "question": "Which type of relationship does inheritance represent in OOP?",
+          "id": 5,
+          "question": "What is the correct sequence of SDLC phases?",
           "options": [
-            "Has-a",
-            "Is-a",
-            "Has-a or Is-a",
-            "Is-a or Can-do"
+            "Design → Requirements → Implementation → Testing → Deployment → Maintenance",
+            "Requirements → Design → Implementation → Testing → Deployment → Maintenance",
+            "Implementation → Design → Requirements → Testing → Deployment → Maintenance",
+            "Requirements → Implementation → Design → Testing → Deployment → Maintenance"
           ],
-          "answer": "Is-a"
+          "correct_answer": "Requirements → Design → Implementation → Testing → Deployment → Maintenance",
+          "topic": "SDLC Phases"
         },
         {
-          "question": "In Java, which keyword is used to call the constructor of the parent class?",
+          "id": 6,
+          "question": "Which of the following is an example of a functional requirement?",
           "options": [
-            "super()",
-            "this()",
-            "parent()",
-            "extends()"
+            "The system should load within 3 seconds",
+            "The system should allow users to log in",
+            "The system must run on Android only",
+            "The system should be accessible on mobile devices"
           ],
-          "answer": "super()"
+          "correct_answer": "The system should allow users to log in",
+          "topic": "Types of Requirements"
         },
         {
-          "question": "What is polymorphism in OOP?",
+          "id": 7,
+          "question": "What type of requirement is 'The system should be accessible on both desktop and mobile devices'?",
           "options": [
-            "The ability to create multiple objects of a class",
-            "The ability of one class to inherit from another",
-            "The ability to define multiple methods with the same name but different implementations",
-            "The ability to hide the internal workings of an object"
+            "Functional requirement",
+            "Non-functional requirement",
+            "Constraint",
+            "Business requirement"
           ],
-          "answer": "The ability to define multiple methods with the same name but different implementations"
+          "correct_answer": "Non-functional requirement",
+          "topic": "Types of Requirements"
         },
         {
-          "question": "What is the purpose of a constructor in Java?",
+          "id": 8,
+          "question": "Which requirement gathering technique involves observing users performing their daily work?",
           "options": [
-            "To initialize object fields",
-            "To create an object instance",
-            "To destroy an object",
-            "To display object details"
+            "Interviews",
+            "Questionnaires",
+            "Observations",
+            "Brainstorming"
           ],
-          "answer": "To initialize object fields"
+          "correct_answer": "Observations",
+          "topic": "Requirement Gathering Techniques"
         },
         {
-          "question": "Which method is called when an object is instantiated in Java?",
+          "id": 9,
+          "question": "What is a stakeholder in software engineering?",
           "options": [
-            "getter",
-            "setter",
-            "constructor",
-            "destructor"
+            "Only the people who fund the project",
+            "Only the end users of the system",
+            "Any person or group who has an interest in the software system",
+            "Only the development team members"
           ],
-          "answer": "constructor"
+          "correct_answer": "Any person or group who has an interest in the software system",
+          "topic": "Stakeholders"
         },
         {
-          "question": "Which of the following is NOT a relationship in OOP?",
+          "id": 10,
+          "question": "What happens during the System Design phase of SDLC?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Polymorphism",
-            "Encapsulation"
+            "Writing the actual code",
+            "Testing the software for bugs",
+            "Translating requirements into a system blueprint including UI design and database schema",
+            "Deploying the software to production"
           ],
-          "answer": "Polymorphism"
+          "correct_answer": "Translating requirements into a system blueprint including UI design and database schema",
+          "topic": "System Design Phase"
         },
         {
-          "question": "What does the 'private' access modifier in Java imply?",
+          "id": 11,
+          "question": "What type of testing checks if each small piece of code works correctly on its own?",
           "options": [
-            "The method can be accessed by any other class",
-            "The method is accessible within its own class only",
-            "The method can only be accessed within the package",
-            "The method can be accessed by subclasses"
+            "Integration Testing",
+            "System Testing",
+            "Unit Testing",
+            "Acceptance Testing"
           ],
-          "answer": "The method is accessible within its own class only"
+          "correct_answer": "Unit Testing",
+          "topic": "Types of Testing"
         },
         {
-          "question": "What is the main difference between composition and aggregation in Java?",
+          "id": 12,
+          "question": "Which type of maintenance fixes bugs or errors found after the system is deployed?",
           "options": [
-            "In composition, objects cannot exist independently; in aggregation, they can.",
-            "In aggregation, objects cannot exist independently; in composition, they can.",
-            "Both relationships are identical in behavior.",
-            "Composition refers to inheritance, while aggregation refers to method binding."
+            "Adaptive Maintenance",
+            "Perfective Maintenance",
+            "Corrective Maintenance",
+            "Preventive Maintenance"
           ],
-          "answer": "In composition, objects cannot exist independently; in aggregation, they can."
+          "correct_answer": "Corrective Maintenance",
+          "topic": "Types of Software Maintenance"
         },
         {
-          "question": "Which of the following is an example of a class-level variable?",
+          "id": 13,
+          "question": "What is the main difference between Software Engineering and Programming?",
           "options": [
-            "Instance variable",
-            "Static variable",
-            "Local variable",
-            "Method variable"
+            "SE uses different programming languages than programming",
+            "SE is process-driven and covers the entire software lifecycle, while programming focuses mainly on coding",
+            "SE is only for large companies, programming is for individuals",
+            "SE doesn't involve any coding activities"
           ],
-          "answer": "Static variable"
+          "correct_answer": "SE is process-driven and covers the entire software lifecycle, while programming focuses mainly on coding",
+          "topic": "SE vs Programming"
         },
         {
-          "question": "Which of the following is NOT a feature of an abstract class?",
+          "id": 14,
+          "question": "Which organization created the joint Software Engineering Code of Ethics specifically for software engineers?",
           "options": [
-            "It cannot be instantiated.",
-            "It can have both abstract and non-abstract methods.",
-            "It can have final methods.",
-            "It must have a constructor."
+            "IEEE only",
+            "ACM only",
+            "IEEE and ACM together",
+            "BCS and ACS together"
           ],
-          "answer": "It must have a constructor."
+          "correct_answer": "IEEE and ACM together",
+          "topic": "Ethics - Professional Codes"
         },
         {
-          "question": "Which method must be implemented by any class that implements an interface in Java?",
+          "id": 15,
+          "question": "What is the purpose of Acceptance Testing?",
           "options": [
-            "Any method defined within the class",
-            "Methods defined in the interface",
-            "The constructor of the class",
-            "The toString() method"
+            "To check if individual modules work correctly",
+            "To verify that different modules work well together",
+            "To test the whole system behavior",
+            "To check if the system meets the client's requirements"
           ],
-          "answer": "Methods defined in the interface"
+          "correct_answer": "To check if the system meets the client's requirements",
+          "topic": "Types of Testing"
         },
         {
-          "question": "What is a default constructor in Java?",
+          "id": 16,
+          "question": "Which of the following is NOT typically included in the Deployment phase?",
           "options": [
-            "A constructor with no parameters",
-            "A constructor that can be overridden",
-            "A constructor that initializes all fields to default values",
-            "A constructor that takes parameters"
+            "Installing software in the real environment",
+            "Training users",
+            "Writing the actual code",
+            "Setting up technical support"
           ],
-          "answer": "A constructor with no parameters"
+          "correct_answer": "Writing the actual code",
+          "topic": "Deployment Phase"
         },
         {
-          "question": "What does 'super' keyword refer to in a subclass constructor?",
+          "id": 17,
+          "question": "What is Operational Feasibility concerned with?",
           "options": [
-            "The superclass constructor",
-            "The instance of the subclass",
-            "The instance of the superclass",
-            "The current class constructor"
+            "Whether the technology exists to build the system",
+            "Whether the project is financially viable",
+            "Whether users will actually use the system",
+            "Whether the project can be completed on time"
           ],
-          "answer": "The superclass constructor"
+          "correct_answer": "Whether users will actually use the system",
+          "topic": "Types of Feasibility"
         },
         {
-          "question": "Which of the following concepts is associated with 'method overriding'?",
+          "id": 18,
+          "question": "Which of the following is a key ethical principle in Software Engineering?",
           "options": [
-            "Runtime polymorphism",
-            "Compile-time polymorphism",
-            "Both compile-time and runtime polymorphism",
-            "Code reuse"
+            "Maximizing profit at all costs",
+            "Protecting users' personal information and privacy",
+            "Using the most complex technology available",
+            "Completing projects as quickly as possible"
           ],
-          "answer": "Runtime polymorphism"
+          "correct_answer": "Protecting users' personal information and privacy",
+          "topic": "Software Engineering Ethics"
         },
         {
-          "question": "What is the correct way to define a getter method for a private field 'name'?",
+          "id": 19,
+          "question": "What is the output of the Requirements Gathering phase?",
           "options": [
-            "public String getName() { return name; }",
-            "private String getName() { return name; }",
-            "public void setName(String name) { this.name = name; }",
-            "public String setName() { return name; }"
+            "System design documents",
+            "Working code modules",
+            "Software Requirements Specification (SRS)",
+            "Test cases"
           ],
-          "answer": "public String getName() { return name; }"
+          "correct_answer": "Software Requirements Specification (SRS)",
+          "topic": "Requirements Gathering"
         },
         {
-          "question": "What is a key characteristic of a static method in Java?",
+          "id": 20,
+          "question": "Which software failure was caused by a missing hyphen in the code?",
           "options": [
-            "It can access instance variables",
-            "It can be called without creating an object",
-            "It can access private variables",
-            "It cannot be overridden"
+            "Therac-25",
+            "Ariane 5 Rocket",
+            "Mariner 1 (NASA)",
+            "Knight Capital"
           ],
-          "answer": "It can be called without creating an object"
-        },
-        {
-          "question": "Which keyword is used to create a subclass in Java?",
-          "options": [
-            "extends",
-            "implements",
-            "super",
-            "final"
-          ],
-          "answer": "extends"
-        },
-        {
-          "question": "Which of the following is an example of abstraction?",
-          "options": [
-            "Creating a method that hides implementation details",
-            "Creating a class with only instance variables",
-            "Creating an instance of a class",
-            "Creating an object that does not belong to any class"
-          ],
-          "answer": "Creating a method that hides implementation details"
-        },
-        {
-          "question": "What is the purpose of an interface in Java?",
-          "options": [
-            "To define a contract for classes to implement",
-            "To create a base class",
-            "To manage memory allocation",
-            "To handle exceptions"
-          ],
-          "answer": "To define a contract for classes to implement"
-        },
-        {
-          "question": "Which of the following is an example of method overloading?",
-          "options": [
-            "public void add(int a, int b) {} public void add(double a, double b) {}",
-            "public void add() {} public void add(int a, int b) {}",
-            "public void add() {} public void subtract() {}",
-            "public void add(int a) {} public void add(int b) {}"
-          ],
-          "answer": "public void add(int a, int b) {} public void add(double a, double b) {}"
-        },
-        {
-          "question": "What type of method can be defined in an interface?",
-          "options": [
-            "Abstract method",
-            "Static method",
-            "Private method",
-            "Constructors"
-          ],
-          "answer": "Abstract method"
-        },
-        {
-          "question": "What is the primary difference between an abstract class and an interface?",
-          "options": [
-            "An abstract class can implement methods, an interface cannot.",
-            "An abstract class can have both abstract and concrete methods, an interface can only have abstract methods.",
-            "An interface cannot be inherited, but an abstract class can.",
-            "An abstract class can have constructors, an interface cannot."
-          ],
-          "answer": "An abstract class can have both abstract and concrete methods, an interface can only have abstract methods."
-        },
-        {
-          "question": "Which of the following is true about interfaces in Java?",
-          "options": [
-            "An interface can extend multiple classes",
-            "An interface can implement multiple classes",
-            "An interface can extend another interface",
-            "An interface can contain instance variables"
-          ],
-          "answer": "An interface can extend another interface"
-        },
-        {
-          "question": "What is the key feature of polymorphism in OOP?",
-          "options": [
-            "The ability to perform the same operation in different ways",
-            "The ability to hide data from the user",
-            "The ability to combine two classes",
-            "The ability to create objects dynamically"
-          ],
-          "answer": "The ability to perform the same operation in different ways"
-        },
-        {
-          "question": "Which keyword is used to prevent a method from being overridden in Java?",
-          "options": [
-            "final",
-            "static",
-            "public",
-            "protected"
-          ],
-          "answer": "final"
-        },
-        {
-          "question": "What does the 'this' keyword refer to in Java?",
-          "options": [
-            "The current object instance",
-            "The superclass object",
-            "The constructor of the class",
-            "The method being called"
-          ],
-          "answer": "The current object instance"
-        },
-        {
-          "question": "What is method overriding used for in Java?",
-          "options": [
-            "To provide a new implementation of a method in a subclass",
-            "To define a method with the same signature in the subclass",
-            "To overload a method in the subclass",
-            "To ensure method execution in the superclass"
-          ],
-          "answer": "To provide a new implementation of a method in a subclass"
+          "correct_answer": "Mariner 1 (NASA)",
+          "topic": "Software Crisis Examples"
         }
       ]
     },
-
     {
       "title": "q2",
       "questions": [
         {
-          "question": "What relationship is demonstrated between the University and Student classes in the following code?",
-          "code": "public class University {\n  private ArrayList<Student> students;\n\n  public University() {\n    students = new ArrayList<Student>();\n  }\n\n  public void addStudent(Student student) {\n    students.add(student);\n  }\n}",
+          "question": "What is the primary difference between SDLC and Software Process Models?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
-            "Association",
-            "Dependency"
+            "SDLC defines what phases to follow, while Software Process Models define how to execute those phases",
+            "SDLC is for large projects, while Software Process Models are for small projects",
+            "SDLC is outdated, while Software Process Models are modern",
+            "SDLC and Software Process Models are the same thing"
           ],
-          "answer": "Aggregation"
+          "answer": "SDLC defines what phases to follow, while Software Process Models define how to execute those phases"
         },
         {
-          "question": "What relationship is demonstrated between the House and Room classes in the following code?",
-          "code": "public class House {\n  private Room[] rooms;\n\n  public House() {\n    rooms = new Room[5];\n    for (int i = 0; i < 5; i++) {\n      rooms[i] = new Room();\n    }\n  }\n}",
+          "question": "Which software process model follows a linear and step-by-step approach where each phase is completed before moving to the next?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
-            "Association",
-            "Dependency"
+            "Agile Model",
+            "Spiral Model",
+            "Waterfall Model",
+            "Incremental Model"
           ],
-          "answer": "Composition"
+          "answer": "Waterfall Model"
         },
         {
-          "question": "Which of the following statements about constructors in Java is incorrect?",
+          "question": "What is the main advantage of the Iterative Waterfall Model over the traditional Waterfall Model?",
           "options": [
-            "Constructors have the same name as the class",
-            "Constructors can be overloaded",
-            "Constructors can return a value of type void",
-            "Constructors are called when an object is created",
-            "If no constructor is defined, Java provides a default one"
+            "It's faster to implement",
+            "It allows feedback and revisions between phases",
+            "It requires less documentation",
+            "It's cheaper to develop"
           ],
-          "answer": "Constructors can return a value of type void"
+          "answer": "It allows feedback and revisions between phases"
         },
         {
-          "question": "What is the correct structure for a getter method for a private String name attribute in Java?",
+          "question": "Which model is most suitable for safety-critical systems like medical devices and automotive systems?",
           "options": [
-            "public void getName() { return name; }",
-            "private String getName() { return name; }",
-            "public String getName() { return name; }",
-            "String getName() { return this.name; }",
-            "public name getName() { return this.name; }"
+            "Agile Model",
+            "Prototyping Model",
+            "V-Model",
+            "Incremental Model"
           ],
-          "answer": "public String getName() { return name; }"
+          "answer": "V-Model"
         },
         {
-          "question": "Which OOP concept is demonstrated in the following code?",
-          "code": "public abstract class Shape {\n  public abstract double calculateArea();\n}",
+          "question": "In the V-Model, what does the 'V' shape represent?",
           "options": [
-            "Encapsulation",
-            "Inheritance",
-            "Polymorphism",
-            "Abstraction",
-            "Composition"
+            "Victory in software development",
+            "Development on the left side and testing/validation on the right side",
+            "Very important phases",
+            "Vertical integration of components"
           ],
-          "answer": "Abstraction"
+          "answer": "Development on the left side and testing/validation on the right side"
         },
         {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Car();\n    v.drive();\n  }\n}\n\nclass Vehicle {\n  public void drive() {\n    System.out.println(\"Vehicle is driving\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void drive() {\n    System.out.println(\"Car is driving\");\n  }\n}",
+          "question": "What is the primary purpose of the Prototyping Model?",
           "options": [
-            "Vehicle is driving",
-            "Car is driving",
-            "Both Vehicle is driving and Car is driving",
-            "Compilation error",
-            "No output"
+            "To reduce development costs",
+            "To build a quick and rough version to show users early and get feedback",
+            "To eliminate the need for testing",
+            "To speed up the coding phase"
           ],
-          "answer": "Car is driving"
+          "answer": "To build a quick and rough version to show users early and get feedback"
         },
         {
-          "question": "What will be the result of trying to compile and run the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Shape shape = new Shape();\n    shape.draw();\n  }\n}\n\nabstract class Shape {\n  public abstract void draw();\n}",
+          "question": "Which model delivers software in small functional units called increments?",
           "options": [
-            "The code will compile and run without errors",
-            "The code will compile but throw a runtime exception",
-            "The code will not compile because abstract methods cannot have a body",
-            "The code will not compile because abstract classes cannot be instantiated",
-            "The code will not compile because the draw method is not implemented"
+            "Waterfall Model",
+            "V-Model",
+            "Incremental Model",
+            "Prototyping Model"
           ],
-          "answer": "The code will not compile because abstract classes cannot be instantiated"
+          "answer": "Incremental Model"
         },
         {
-          "question": "Which of the following is an example of method overriding?",
+          "question": "What are the four main phases in each spiral loop of the Spiral Model?",
           "options": [
-            "Two methods with the same name but different parameters in the same class",
-            "Two methods with the same name and parameters in the same class",
-            "A method in a subclass with the same name and parameters as a method in its superclass",
-            "A method with the same name in an unrelated class",
-            "A method that takes variable number of arguments"
+            "Planning, Design, Implementation, Testing",
+            "Planning, Risk Analysis, Engineering, Evaluation",
+            "Requirements, Analysis, Coding, Deployment",
+            "Feasibility, Design, Development, Maintenance"
           ],
-          "answer": "A method in a subclass with the same name and parameters as a method in its superclass"
+          "answer": "Planning, Risk Analysis, Engineering, Evaluation"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"John Doe\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
+          "question": "Which model is most appropriate for high-risk, large-scale projects with changing requirements?",
           "options": [
-            "null",
-            "John Doe",
-            "\"\"",
-            "Compilation error",
-            "Runtime exception"
+            "Waterfall Model",
+            "V-Model",
+            "Spiral Model",
+            "Prototyping Model"
           ],
-          "answer": "John Doe"
+          "answer": "Spiral Model"
         },
         {
-          "question": "What is the correct way to implement constructor chaining in Java?",
+          "question": "What is the typical duration of a sprint in Agile/Scrum methodology?",
           "options": [
-            "Using the super() keyword to call the parent constructor",
-            "Using the this() keyword to call another constructor in the same class",
-            "Using the new keyword to create a new instance",
-            "Using the return keyword to return from the current constructor",
-            "Using the construct() method to call another constructor"
+            "1-4 weeks",
+            "2-6 months",
+            "6-12 months",
+            "1-2 days"
           ],
-          "answer": "Using the this() keyword to call another constructor in the same class"
+          "answer": "1-4 weeks"
         },
         {
-          "question": "Which of the following correctly describes the 'static' modifier in Java?",
+          "question": "Which Agile framework focuses on visualizing tasks on a board and managing continuous flow of work?",
           "options": [
-            "Static methods can access instance variables directly",
-            "Static variables belong to the class, not to instances",
-            "Static methods can be overridden in subclasses",
-            "Static variables are automatically initialized to null",
-            "Static blocks are executed when an object is created"
+            "Scrum",
+            "Kanban",
+            "XP (Extreme Programming)",
+            "Crystal"
           ],
-          "answer": "Static variables belong to the class, not to instances"
+          "answer": "Kanban"
         },
         {
-          "question": "Which of the following statements about interfaces in Java is true?",
+          "question": "What are the three key roles in Scrum?",
           "options": [
-            "Interfaces can contain implemented methods (before Java 8)",
-            "A class can implement multiple interfaces",
-            "Interfaces can contain instance variables",
-            "Interfaces can be instantiated directly",
-            "Interfaces can extend multiple classes"
+            "Developer, Tester, Manager",
+            "Product Owner, Scrum Master, Team",
+            "Analyst, Designer, Programmer",
+            "Client, Vendor, User"
           ],
-          "answer": "A class can implement multiple interfaces"
+          "answer": "Product Owner, Scrum Master, Team"
         },
         {
-          "question": "What relationship is demonstrated between the Employee and Department classes in the following code?",
-          "code": "public class Employee {\n  private Department department;\n  \n  public Employee(Department department) {\n    this.department = department;\n  }\n}",
+          "question": "When should the Waterfall Model be used?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
-            "Generalization",
-            "Implementation"
+            "When requirements are unclear and may change frequently",
+            "When the project is high-risk and complex",
+            "When requirements are clearly known in advance and unlikely to change",
+            "When rapid delivery is the top priority"
           ],
-          "answer": "Aggregation"
+          "answer": "When requirements are clearly known in advance and unlikely to change"
         },
         {
-          "question": "Which of the following correctly describes the principle of encapsulation?",
+          "question": "Which model combines features of both Waterfall and Prototyping models?",
           "options": [
-            "The ability to hide implementation details of an object",
-            "The ability to create multiple objects from a class",
-            "The ability to inherit properties from a parent class",
-            "The ability to override methods from a parent class",
-            "The ability to create classes that can't be instantiated"
+            "V-Model",
+            "Incremental Model",
+            "Spiral Model",
+            "Agile Model"
           ],
-          "answer": "The ability to hide implementation details of an object"
+          "answer": "Spiral Model"
         },
         {
-          "question": "What is the main difference between method overloading and method overriding?",
+          "question": "What is the main focus of the Agile methodology?",
           "options": [
-            "Overloading occurs in the same class, overriding occurs in subclasses",
-            "Overloading involves changing the method name, overriding keeps the same name",
-            "Overloading is a compile-time concept, overriding is a runtime concept",
-            "Overloading requires inheritance, overriding does not",
-            "Overloading works with static methods, overriding does not"
+            "Comprehensive documentation",
+            "Following a strict plan",
+            "Team collaboration, customer feedback, and flexibility to change",
+            "Minimizing the number of iterations"
           ],
-          "answer": "Overloading is a compile-time concept, overriding is a runtime concept"
+          "answer": "Team collaboration, customer feedback, and flexibility to change"
         },
         {
-          "question": "Which of the following code demonstrates the concept of polymorphism?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Shape shape1 = new Circle();\n    Shape shape2 = new Rectangle();\n    shape1.draw();\n    shape2.draw();\n  }\n}",
+          "question": "In which year was the Agile Manifesto created?",
           "options": [
-            "Method overloading",
-            "Method overriding",
-            "Dynamic method dispatch",
-            "Constructor chaining",
-            "Method hiding"
+            "1999",
+            "2001",
+            "2003",
+            "2005"
           ],
-          "answer": "Dynamic method dispatch"
+          "answer": "2001"
         },
         {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes a sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    super.makeSound();\n    System.out.println(\"Dog barks\");\n  }\n}",
+          "question": "Which model is best suited for projects where requirements may change frequently and fast delivery is important?",
           "options": [
-            "Animal makes a sound",
-            "Dog barks",
-            "Animal makes a sound\nDog barks",
-            "Compilation error",
-            "No output"
+            "Waterfall Model",
+            "V-Model",
+            "Agile Model",
+            "Traditional SDLC"
           ],
-          "answer": "Animal makes a sound\nDog barks"
+          "answer": "Agile Model"
         },
         {
-          "question": "What is the difference between composition and aggregation in OOP?",
+          "question": "What type of relationship does inheritance represent in the context of software development models?",
           "options": [
-            "In composition, the parts can exist independently of the whole; in aggregation, they cannot",
-            "In composition, the whole controls the lifecycle of its parts; in aggregation, it does not",
-            "Composition requires inheritance; aggregation does not",
-            "Composition is implemented using interfaces; aggregation is implemented using abstract classes",
-            "There is no difference between composition and aggregation"
+            "Has-a relationship",
+            "Uses-a relationship",
+            "Each model inherits from previous models",
+            "Models build upon lessons learned from earlier approaches"
           ],
-          "answer": "In composition, the whole controls the lifecycle of its parts; in aggregation, it does not"
+          "answer": "Models build upon lessons learned from earlier approaches"
         },
         {
-          "question": "What does the following code demonstrate?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Calculator calc = new Calculator();\n    System.out.println(calc.add(5, 3));\n    System.out.println(calc.add(5.2, 3.8));\n  }\n}\n\nclass Calculator {\n  public int add(int a, int b) {\n    return a + b;\n  }\n  \n  public double add(double a, double b) {\n    return a + b;\n  }\n}",
+          "question": "Which factor is most important when choosing between different software process models?",
           "options": [
-            "Method overriding",
-            "Method overloading",
-            "Method hiding",
-            "Constructor chaining",
-            "Dynamic dispatch"
+            "The programming language to be used",
+            "The size of the development team",
+            "Requirements stability and project characteristics",
+            "The client's budget"
           ],
-          "answer": "Method overloading"
+          "answer": "Requirements stability and project characteristics"
         },
         {
-          "question": "Which type of relationship in OOP represents an 'is-a' relationship?",
+          "question": "For a COVID-19 vaccination appointment system that needs rapid deployment, which model would be most appropriate?",
           "options": [
-            "Association",
-            "Aggregation",
-            "Composition",
-            "Inheritance",
-            "Dependency"
+            "Waterfall Model",
+            "V-Model",
+            "Agile/Incremental Model",
+            "Spiral Model"
           ],
-          "answer": "Inheritance"
-        },
-        {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Parent p = new Child();\n    p.display();\n  }\n}\n\nclass Parent {\n  public static void display() {\n    System.out.println(\"Display from Parent\");\n  }\n}\n\nclass Child extends Parent {\n  public static void display() {\n    System.out.println(\"Display from Child\");\n  }\n}",
-          "options": [
-            "Display from Parent",
-            "Display from Child",
-            "Compilation error",
-            "Both Display from Parent and Display from Child",
-            "No output"
-          ],
-          "answer": "Display from Parent"
-        },
-        {
-          "question": "Which of the following is NOT a valid access modifier in Java?",
-          "options": [
-            "public",
-            "private",
-            "protected",
-            "default",
-            "friendly"
-          ],
-          "answer": "friendly"
-        },
-        {
-          "question": "Which of the following statements about abstract classes in Java is true?",
-          "options": [
-            "Abstract classes can be instantiated directly",
-            "Abstract classes can contain both abstract and non-abstract methods",
-            "A class can extend multiple abstract classes",
-            "Abstract methods must have a body",
-            "All methods in an abstract class must be abstract"
-          ],
-          "answer": "Abstract classes can contain both abstract and non-abstract methods"
-        },
-        {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Counter c = new Counter();\n    Counter.increment();\n    Counter.increment();\n    System.out.println(Counter.count);\n  }\n}\n\nclass Counter {\n  public static int count = 0;\n  \n  public static void increment() {\n    count++;\n  }\n}",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "Compilation error",
-            "Runtime exception"
-          ],
-          "answer": "2"
-        },
-        {
-          "question": "Which code segment correctly demonstrates dependency relationship in Java?",
-          "code": "public class Car {\n  public void drive(Driver driver) {\n    driver.drive();\n    System.out.println(\"Car is being driven\");\n  }\n}",
-          "options": [
-            "Inheritance",
-            "Association",
-            "Aggregation",
-            "Composition",
-            "Dependency"
-          ],
-          "answer": "Dependency"
+          "answer": "Agile/Incremental Model"
         }
       ]
     },
-
     {
       "title": "q3",
       "questions": [
         {
-          "question": "What relationship is demonstrated between the Library and Book classes in the following code?",
-          "code": "public class Library {\n  private ArrayList<Book> books;\n\n  public Library() {\n    books = new ArrayList<Book>();\n  }\n\n  public void addBook(Book book) {\n    books.add(book);\n  }\n}",
+          "question": "What are the 4 key values of the Agile Manifesto?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
+            "Process, Documentation, Contract, Plan",
+            "Individuals and Interactions, Working Software, Customer Collaboration, Responding to Change",
+            "Planning, Testing, Development, Deployment",
+            "Requirements, Design, Implementation, Maintenance"
+          ],
+          "answer": "Individuals and Interactions, Working Software, Customer Collaboration, Responding to Change"
+        },
+        {
+          "question": "In Agile methodology, what is prioritized over 'Comprehensive Documentation'?",
+          "options": [
+            "Process and Tools",
+            "Working Software",
+            "Contract Negotiation",
+            "Following Plan"
+          ],
+          "answer": "Working Software"
+        },
+        {
+          "question": "Who is responsible for deciding which features and functionalities to build in SCRUM?",
+          "options": [
+            "ScrumMaster",
+            "Development Team",
+            "Product Owner",
+            "Stakeholders"
+          ],
+          "answer": "Product Owner"
+        },
+        {
+          "question": "What is the maximum duration of a Sprint in SCRUM?",
+          "options": [
+            "2 weeks",
+            "1 calendar month",
+            "6 weeks",
+            "3 months"
+          ],
+          "answer": "1 calendar month"
+        },
+        {
+          "question": "What is the correct template for writing User Stories?",
+          "options": [
+            "Given <condition> When <action> Then <result>",
+            "As a <user role> I want to <goal> So that <benefit>",
+            "The system shall <requirement>",
+            "Feature: <title> Scenario: <description>"
+          ],
+          "answer": "As a <user role> I want to <goal> So that <benefit>"
+        },
+        {
+          "question": "Which SCRUM role has no authority to exert control over the development team?",
+          "options": [
+            "Product Owner",
+            "ScrumMaster",
+            "Development Team Lead",
+            "Project Manager"
+          ],
+          "answer": "ScrumMaster"
+        },
+        {
+          "question": "What is a Product Backlog?",
+          "options": [
+            "A list of completed features",
+            "A prioritized list of work for the development team from product plan and requirements",
+            "A list of bugs found during testing",
+            "A schedule of sprint activities"
+          ],
+          "answer": "A prioritized list of work for the development team from product plan and requirements"
+        },
+        {
+          "question": "Which characteristic is NOT associated with traditional software development methodologies?",
+          "options": [
+            "High Cost",
+            "Changes are not acceptable",
+            "Highest Value",
+            "Less or no iterations"
+          ],
+          "answer": "Highest Value"
+        },
+        {
+          "question": "What are the three main questions typically asked during Daily Scrum?",
+          "options": [
+            "What will you do? When will you finish? Who will help?",
+            "What did you accomplish since last daily scrum? What will you work on? What impediments exist?",
+            "What is done? What is in progress? What is planned?",
+            "What worked? What didn't work? What should we improve?"
+          ],
+          "answer": "What did you accomplish since last daily scrum? What will you work on? What impediments exist?"
+        },
+        {
+          "question": "What does a Sprint Burn Down Chart represent?",
+          "options": [
+            "Team performance ratings over time",
+            "Work left to do vs time",
+            "Budget spent vs time",
+            "Features completed vs planned features"
+          ],
+          "answer": "Work left to do vs time"
+        },
+        {
+          "question": "Which SCRUM artifact is a subset of Product Backlog user stories defined for a particular sprint?",
+          "options": [
+            "Sprint Backlog",
+            "Product Increment",
+            "Definition of Done",
+            "Burn Down Chart"
+          ],
+          "answer": "Sprint Backlog"
+        },
+        {
+          "question": "What is the primary purpose of Sprint Review?",
+          "options": [
+            "To plan the next Sprint",
+            "To inspect the Increment and adapt the Product Backlog if needed",
+            "To assign new tasks to team members",
+            "To conduct a retrospective on team performance"
+          ],
+          "answer": "To inspect the Increment and adapt the Product Backlog if needed"
+        },
+        {
+          "question": "What is the main purpose of Sprint Retrospective?",
+          "options": [
+            "To review the product increment and get feedback from stakeholders",
+            "To plan the work for the next sprint and prioritize the product backlog",
+            "To inspect the team's performance and identify improvements for the next sprint",
+            "To coordinate work across multiple teams and align on product vision"
+          ],
+          "answer": "To inspect the team's performance and identify improvements for the next sprint"
+        },
+        {
+          "question": "In the Product Backlog, where do high-value items appear?",
+          "options": [
+            "At the bottom of the backlog",
+            "At the top of the product backlog",
+            "In the middle section",
+            "They are randomly distributed"
+          ],
+          "answer": "At the top of the product backlog"
+        },
+        {
+          "question": "What is the ideal burn down velocity if a project has 120 tasks to complete in 5 days?",
+          "options": [
+            "20 tasks per day",
+            "24 tasks per day",
+            "30 tasks per day",
+            "25 tasks per day"
+          ],
+          "answer": "24 tasks per day"
+        },
+        {
+          "question": "Which of the following is NOT a SCRUM artifact?",
+          "options": [
+            "Product Backlog",
+            "Sprint Backlog",
+            "Burn Down Charts",
+            "Daily Scrum"
+          ],
+          "answer": "Daily Scrum"
+        },
+        {
+          "question": "What does 'Responding to Change' prioritize over in Agile values?",
+          "options": [
+            "Following Plan",
+            "Process and Tools",
+            "Comprehensive Documentation",
+            "Contract Negotiation"
+          ],
+          "answer": "Following Plan"
+        },
+        {
+          "question": "Which characteristic best describes the Development Team in SCRUM?",
+          "options": [
+            "Hierarchical and specialized",
+            "Cross-functional and self-organizing",
+            "Managed by ScrumMaster",
+            "Reports directly to Product Owner"
+          ],
+          "answer": "Cross-functional and self-organizing"
+        },
+        {
+          "question": "According to the lecture, why is Agile valuable for Computer Science and Network Engineering (CSNE) projects?",
+          "options": [
+            "It reduces development costs significantly",
+            "It eliminates the need for documentation",
+            "Its adaptability makes it valuable for complex network infrastructure projects",
+            "It guarantees project success"
+          ],
+          "answer": "Its adaptability makes it valuable for complex network infrastructure projects"
+        },
+        {
+          "question": "What happens to the Product Backlog over the course of a project?",
+          "options": [
+            "It remains fixed once created",
+            "The Product backlog is a constantly evolving artifact",
+            "It is only updated at the end of each sprint",
+            "It is replaced with a new backlog each sprint"
+          ],
+          "answer": "The Product backlog is a constantly evolving artifact"
+        }
+      ]
+    },
+    {
+      "title": "q4",
+      "questions": [
+        {
+          "question": "What is the primary purpose of a Use Case Model in software engineering?",
+          "options": [
+            "To define how the system will be implemented",
+            "To graphically represent the proposed functionality of the new system",
+            "To show the database design of the system",
+            "To demonstrate the system architecture"
+          ],
+          "answer": "To graphically represent the proposed functionality of the new system"
+        },
+        {
+          "question": "Which of the following is NOT a basic component of a Use Case diagram?",
+          "options": [
+            "System",
+            "Actors",
+            "Use Cases",
+            "Classes"
+          ],
+          "answer": "Classes"
+        },
+        {
+          "question": "What does an Actor represent in a Use Case diagram?",
+          "options": [
+            "A function performed by the system",
+            "The roles adopted by those participating with the system",
+            "The system boundary",
+            "A database table"
+          ],
+          "answer": "The roles adopted by those participating with the system"
+        },
+        {
+          "question": "What is the correct notation for representing an Actor in a Use Case diagram?",
+          "options": [
+            "Rectangle",
+            "Oval/Ellipse",
+            "Stick figure",
+            "Diamond"
+          ],
+          "answer": "Stick figure"
+        },
+        {
+          "question": "Which relationship indicates that an actor participates in a use case?",
+          "options": [
+            "Include",
+            "Extend",
             "Association",
-            "Dependency"
+            "Generalization"
           ],
-          "answer": "Aggregation"
+          "answer": "Association"
         },
         {
-          "question": "What relationship is demonstrated between the Car and Engine classes in the following code?",
-          "code": "public class Car {\n  private Engine engine;\n\n  public Car() {\n    engine = new Engine();\n  }\n}",
+          "question": "In an <<include>> relationship, which statement is correct?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
+            "The included use case can stand alone",
+            "The base use case explicitly incorporates the behavior of another use case",
+            "The relationship is optional",
+            "It represents inheritance between use cases"
+          ],
+          "answer": "The base use case explicitly incorporates the behavior of another use case"
+        },
+        {
+          "question": "What is the main characteristic of an <<extend>> relationship?",
+          "options": [
+            "The base use case cannot stand alone",
+            "The extending behavior is mandatory",
+            "The base use case may stand alone, but can be extended under certain conditions",
+            "It shows actor inheritance"
+          ],
+          "answer": "The base use case may stand alone, but can be extended under certain conditions"
+        },
+        {
+          "question": "In actor generalization, what does the child actor inherit?",
+          "options": [
+            "Only the name of the parent actor",
+            "Only the use cases of the parent actor",
+            "All characteristics and behavior of the parent actor",
+            "Nothing from the parent actor"
+          ],
+          "answer": "All characteristics and behavior of the parent actor"
+        },
+        {
+          "question": "What is the correct stereotype notation for an include relationship?",
+          "options": [
+            "<<extends>>",
+            "<<include>>",
+            "<<uses>>",
+            "<<contains>>"
+          ],
+          "answer": "<<include>>"
+        },
+        {
+          "question": "Which of the following best describes a Use Case?",
+          "options": [
+            "A class in the system",
+            "A unit of behavior in the proposed system",
+            "A database operation",
+            "A user interface element"
+          ],
+          "answer": "A unit of behavior in the proposed system"
+        },
+        {
+          "question": "What does the System Boundary represent in a Use Case diagram?",
+          "options": [
+            "The physical limits of the hardware",
+            "The boundary between the system and external actors",
+            "The network connections",
+            "The user interface boundaries"
+          ],
+          "answer": "The boundary between the system and external actors"
+        },
+        {
+          "question": "Use case names typically follow which naming convention?",
+          "options": [
+            "Noun phrases only",
+            "Verb phrases only",
+            "Verb-noun phrases",
+            "Adjective-noun phrases"
+          ],
+          "answer": "Verb-noun phrases"
+        },
+        {
+          "question": "Which of the following is true about Use Case scenarios?",
+          "options": [
+            "They only describe successful executions",
+            "They define the specific sequence of events between system and actors",
+            "They are optional in use case modeling",
+            "They replace the use case diagram"
+          ],
+          "answer": "They define the specific sequence of events between system and actors"
+        },
+        {
+          "question": "What should be included in the Main Success Scenario of a use case?",
+          "options": [
+            "Only error conditions",
+            "All possible alternative flows",
+            "The happy path when everything goes as planned",
+            "Implementation details"
+          ],
+          "answer": "The happy path when everything goes as planned"
+        },
+        {
+          "question": "In a use case specification, what are Extensions used for?",
+          "options": [
+            "To describe the main flow only",
+            "To describe alternative paths and exceptional flows",
+            "To list the actors involved",
+            "To define system requirements"
+          ],
+          "answer": "To describe alternative paths and exceptional flows"
+        },
+        {
+          "question": "Which of the following is a valid precondition for a use case?",
+          "options": [
+            "User has successfully completed the use case",
+            "System displays confirmation message",
+            "User has logged into the system",
+            "Use case has ended"
+          ],
+          "answer": "User has logged into the system"
+        },
+        {
+          "question": "What distinguishes Use Case diagrams from other UML diagrams?",
+          "options": [
+            "They show implementation details",
+            "They focus on WHAT the system will do, not HOW",
+            "They only show database relationships",
+            "They are used only for testing"
+          ],
+          "answer": "They focus on WHAT the system will do, not HOW"
+        },
+        {
+          "question": "In use case generalization, what happens to the child use case?",
+          "options": [
+            "It replaces the parent use case completely",
+            "It inherits behavior and may add to or override the parent's behavior",
+            "It has no relationship to the parent",
+            "It can only subtract functionality"
+          ],
+          "answer": "It inherits behavior and may add to or override the parent's behavior"
+        },
+        {
+          "question": "Which relationship type shows that one use case is a specialized version of another?",
+          "options": [
             "Association",
-            "Dependency"
+            "Include",
+            "Extend",
+            "Generalization"
           ],
-          "answer": "Composition"
+          "answer": "Generalization"
         },
         {
-          "question": "Which OOP concept is demonstrated in the following code?",
-          "code": "public abstract class Animal {\n  public abstract void sound();\n}",
+          "question": "What is the main benefit of using Use Case modeling in requirements engineering?",
           "options": [
-            "Encapsulation",
-            "Inheritance",
-            "Polymorphism",
-            "Abstraction",
-            "Composition"
+            "It provides detailed implementation guidelines",
+            "It serves as an excellent communication tool with stakeholders about system functionality",
+            "It replaces all other documentation",
+            "It shows the system's internal structure"
           ],
-          "answer": "Abstraction"
+          "answer": "It serves as an excellent communication tool with stakeholders about system functionality"
+        }
+      ]
+    },
+    {
+      "title": "q5",
+      "questions": [
+        {
+          "question": "What is the primary purpose of an Activity Diagram in UML?",
+          "options": [
+            "To model static structure of classes",
+            "To model workflows and system behavior",
+            "To show object interactions over time",
+            "To represent database relationships"
+          ],
+          "answer": "To model workflows and system behavior"
         },
         {
-          "question": "What will be the result of compiling and running the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle v = new Vehicle();\n    v.start();\n  }\n}\n\nclass Vehicle {\n  public void start() {\n    System.out.println(\"Vehicle is starting\");\n  }\n}",
+          "question": "Which symbol represents the initial node in an Activity Diagram?",
           "options": [
-            "Vehicle is starting",
-            "Compilation error",
-            "Runtime exception",
-            "No output",
-            "Vehicle is starting Vehicle is starting"
+            "Empty circle",
+            "Filled circle",
+            "Diamond shape",
+            "Rectangle"
           ],
-          "answer": "Vehicle is starting"
+          "answer": "Filled circle"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.makeSound();\n  }\n}\n\nclass Animal {\n  public void makeSound() {\n    System.out.println(\"Animal makes sound\");\n  }\n}\n\nclass Dog extends Animal {\n  public void makeSound() {\n    System.out.println(\"Dog barks\");\n  }\n}",
+          "question": "What does a decision node represent in an Activity Diagram?",
           "options": [
-            "Animal makes sound",
-            "Dog barks",
-            "Animal makes sound Dog barks",
-            "Compilation error",
-            "No output"
+            "Start of the process",
+            "Parallel execution",
+            "Conditional flow of control",
+            "End of the process"
           ],
-          "answer": "Dog barks"
+          "answer": "Conditional flow of control"
         },
         {
-          "question": "What is the correct way to define a constructor in Java?",
+          "question": "Which element is used to show activities that can occur in parallel?",
           "options": [
-            "public void Car() { }",
-            "private Car() { }",
-            "public Car() { }",
-            "public Car { }",
-            "void Car() { }"
+            "Decision and Merge nodes",
+            "Fork and Join nodes",
+            "Initial and Final nodes",
+            "Action nodes only"
           ],
-          "answer": "public Car() { }"
+          "answer": "Fork and Join nodes"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    System.out.println(p.name);\n  }\n}\n\nclass Person {\n  String name;\n  \n  public Person() {\n    this(\"Alice\");\n  }\n  \n  public Person(String name) {\n    this.name = name;\n  }\n}",
+          "question": "What shape is used to represent a decision node?",
           "options": [
-            "null",
-            "Alice",
-            "\"\"",
-            "Compilation error",
-            "Runtime exception"
+            "Circle",
+            "Rectangle",
+            "Diamond",
+            "Oval"
           ],
-          "answer": "Alice"
+          "answer": "Diamond"
         },
         {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Shape {\n  public double area() { return 0; }\n}\n\nclass Circle extends Shape {\n  public double area() { return 3.14 * 5 * 5; }\n}",
+          "question": "In Activity Diagrams, what does a fork node do?",
           "options": [
-            "0",
-            "78.5",
-            "Error",
-            "3.14",
-            "15.7"
+            "Merges multiple flows into one",
+            "Creates a decision point",
+            "Splits one flow into multiple parallel flows",
+            "Ends the activity"
           ],
-          "answer": "78.5"
+          "answer": "Splits one flow into multiple parallel flows"
         },
         {
-          "question": "What does the following code demonstrate?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+          "question": "What is the relationship between fork and join nodes?",
           "options": [
-            "Method overloading",
-            "Method overriding",
-            "Polymorphism",
-            "Constructor chaining",
-            "Method hiding"
+            "They are unrelated",
+            "Every fork must have a corresponding join",
+            "Joins can exist without forks",
+            "Forks are optional with joins"
           ],
-          "answer": "Method overriding"
+          "answer": "Every fork must have a corresponding join"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Animal animal = new Dog();\n    animal.sound();\n  }\n}\n\nabstract class Animal {\n  abstract void sound();\n}\n\nclass Dog extends Animal {\n  void sound() {\n    System.out.println(\"Bark\");\n  }\n}",
+          "question": "Which notation indicates iteration in an Activity Diagram?",
           "options": [
-            "Bark",
-            "Compilation error",
-            "No output",
-            "Animal makes a sound",
-            "Runtime exception"
+            "Asterisk (*) inside an action",
+            "Double circle",
+            "Dashed line",
+            "Triangle symbol"
           ],
-          "answer": "Bark"
+          "answer": "Asterisk (*) inside an action"
         },
         {
-          "question": "What relationship is demonstrated between the Manager and Employee classes in the following code?",
-          "code": "public class Manager {\n  private Employee employee;\n\n  public Manager(Employee employee) {\n    this.employee = employee;\n  }\n}",
+          "question": "What is a swimlane used for in Activity Diagrams?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
-            "Generalization",
-            "Implementation"
+            "To show decision points",
+            "To partition activities by organizational units or actors",
+            "To indicate parallel processes",
+            "To mark the end of activities"
           ],
-          "answer": "Aggregation"
+          "answer": "To partition activities by organizational units or actors"
         },
         {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Employee emp = new Employee();\n    emp.showDetails();\n  }\n}\n\nclass Employee {\n  String name = \"John\";\n  int age = 30;\n\n  public void showDetails() {\n    System.out.println(name + \" is \" + age + \" years old.\");\n  }\n}",
+          "question": "How is a sub-activity (call action) indicated in an Activity Diagram?",
           "options": [
-            "John is 30 years old.",
-            "Compilation error",
-            "John is 0 years old.",
-            "No output",
-            "Runtime error"
+            "With a double border",
+            "With a rake-style symbol",
+            "With italic text",
+            "With a dashed outline"
           ],
-          "answer": "John is 30 years old."
+          "answer": "With a rake-style symbol"
         },
         {
-          "question": "What is the correct syntax for method overloading in Java?",
+          "question": "What does a merge node do in an Activity Diagram?",
           "options": [
-            "A. public void add(int a, int b) { } public void add(double a, double b) { }",
-            "B. public void add(int a, int b) { } public void add(int a, double b) { }",
-            "C. public void add() { } public void add(int a, int b) { }",
-            "D. public void add() { } public void subtract() { }",
-            "E. public void add(int a) { } public void add(int b) { }"
+            "Splits flow into parallel paths",
+            "Creates a decision point",
+            "Merges alternative flows back together",
+            "Synchronizes parallel flows"
           ],
-          "answer": "A. public void add(int a, int b) { } public void add(double a, double b) { }"
+          "answer": "Merges alternative flows back together"
         },
         {
-          "question": "What relationship is demonstrated between the Professor and Course classes in the following code?",
-          "code": "public class Professor {\n  private Course course;\n\n  public Professor(Course course) {\n    this.course = course;\n  }\n}",
+          "question": "Which type of flow occurs at a fork node?",
           "options": [
-            "Inheritance",
-            "Aggregation",
-            "Composition",
-            "Generalization",
-            "Implementation"
+            "Control flows down only one path",
+            "Control flows down all forked paths",
+            "Control stops at the fork",
+            "Control flows randomly"
           ],
-          "answer": "Aggregation"
+          "answer": "Control flows down all forked paths"
         },
         {
-          "question": "Which of the following statements about abstract methods in Java is true?",
+          "question": "What must be specified for each branch coming out of a decision node?",
           "options": [
-            "A. Abstract methods must have a body.",
-            "B. Abstract methods are optional in abstract classes.",
-            "C. Abstract methods must be implemented in non-abstract classes.",
-            "D. Abstract methods can be called directly.",
-            "E. Abstract methods can only exist in interfaces."
+            "Action names",
+            "Guard conditions",
+            "Time constraints",
+            "Actor assignments"
           ],
-          "answer": "C. Abstract methods must be implemented in non-abstract classes."
+          "answer": "Guard conditions"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Circle circle = new Circle();\n    System.out.println(circle.area());\n  }\n}\n\nclass Circle {\n  public double area() {\n    return 3.14 * 5 * 5;\n  }\n}",
+          "question": "Activity Diagrams are most similar to which programming construct?",
           "options": [
-            "3.14",
-            "78.5",
-            "15.7",
-            "Error",
-            "No output"
+            "Class definitions",
+            "Flowcharts",
+            "Database schemas",
+            "Function signatures"
           ],
-          "answer": "78.5"
+          "answer": "Flowcharts"
         },
         {
-          "question": "Which OOP concept is demonstrated in the following code?",
-          "code": "public interface Animal {\n  void sound();\n}",
+          "question": "What shape represents an action node in Activity Diagrams?",
           "options": [
-            "Inheritance",
-            "Polymorphism",
-            "Abstraction",
-            "Encapsulation",
-            "Composition"
+            "Circle",
+            "Diamond",
+            "Rounded rectangle",
+            "Triangle"
           ],
-          "answer": "Abstraction"
+          "answer": "Rounded rectangle"
         },
         {
-          "question": "What is the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Car car = new Car();\n    car.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+          "question": "When should Activity Diagrams be used?",
           "options": [
-            "Vehicle is accelerating",
-            "Car is accelerating",
-            "Vehicle is accelerating Car is accelerating",
-            "No output",
-            "Compilation error"
+            "Only for software design",
+            "For modeling business processes and analyzing use cases",
+            "Only for database design",
+            "For network architecture"
           ],
-          "answer": "Car is accelerating"
+          "answer": "For modeling business processes and analyzing use cases"
         },
         {
-          "question": "What will be the output of the following code?",
-          "code": "public class Main {\n  public static void main(String[] args) {\n    Vehicle vehicle = new Car();\n    vehicle.accelerate();\n  }\n}\n\nclass Vehicle {\n  public void accelerate() {\n    System.out.println(\"Vehicle is accelerating\");\n  }\n}\n\nclass Car extends Vehicle {\n  public void accelerate() {\n    super.accelerate();\n    System.out.println(\"Car is accelerating\");\n  }\n}",
+          "question": "What is the difference between a merge and a join?",
           "options": [
-            "Vehicle is accelerating",
-            "Car is accelerating",
-            "Vehicle is accelerating Car is accelerating",
-            "No output",
-            "Compilation error"
+            "No difference, they are the same",
+            "Merge combines alternative paths, join synchronizes parallel flows",
+            "Join combines alternative paths, merge synchronizes parallel flows",
+            "Merge is for decisions, join is for actions"
           ],
-          "answer": "Vehicle is accelerating Car is accelerating"
+          "answer": "Merge combines alternative paths, join synchronizes parallel flows"
+        },
+        {
+          "question": "How should text in action nodes be written?",
+          "options": [
+            "As noun phrases",
+            "As verb phrases in present tense",
+            "As past tense verbs",
+            "As questions"
+          ],
+          "answer": "As verb phrases in present tense"
+        },
+        {
+          "question": "What represents the final node in an Activity Diagram?",
+          "options": [
+            "Filled circle",
+            "Empty circle",
+            "Circle with a dot inside",
+            "Diamond shape"
+          ],
+          "answer": "Circle with a dot inside"
+        },
+        {
+          "question": "Which element connects activities in an Activity Diagram?",
+          "options": [
+            "Associations",
+            "Transitions (control flows)",
+            "Dependencies",
+            "Generalizations"
+          ],
+          "answer": "Transitions (control flows)"
         }
       ]
     }
-    
-
   ]
-  
 }
